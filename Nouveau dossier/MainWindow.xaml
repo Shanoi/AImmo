@@ -1,0 +1,93 @@
+﻿<Window x:Class="ClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        
+        Title="Gestion de biens immobiliers"
+        WindowStartupLocation="CenterScreen">
+
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ListBox 
+            x:Name="Liste"
+            ItemsSource="{Binding Path=ListeBiens}" 
+            DisplayMemberPath="Titre"  
+            Margin="103,60,126,137" />
+        
+        
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
+
+        <TextBlock x:Name="TitreBien" 
+                   HorizontalAlignment="Left" 
+                   Margin="5,10,0,0" 
+                   Text="{Binding ElementName=Liste,Path=SelectedItem.Titre,Mode=TwoWay}"
+                   VerticalAlignment="Top"
+                   FontWeight="Bold" 
+                   FontSize="24"
+                   Grid.Column="2" Width="363"/>
+        <TextBlock x:Name="textBlock1" 
+                   HorizontalAlignment="Left"
+                   Margin="10,94,0,0" 
+                   Text="Prix" 
+                   VerticalAlignment="Top"
+                   FontSize="18"
+                   Grid.Column="2"/>
+        <TextBlock x:Name="textBlock2"
+                   HorizontalAlignment="Left"
+                   Margin="10,123,0,0" 
+                   Text="Adresse"
+                   VerticalAlignment="Top"
+                   FontSize="18"
+                   Grid.Column="2"/>
+        <TextBlock x:Name="textBlock3"
+                   HorizontalAlignment="Left"
+                   Margin="10,152,0,0"
+                   Text="Ville"
+                   VerticalAlignment="Top"
+                   FontSize="18"
+                   Grid.Column="2"/>
+        <TextBlock x:Name="textBlock4"
+                   HorizontalAlignment="Left"
+                   Margin="10,181,0,0"
+                   Text="Description"
+                   VerticalAlignment="Top"
+                   FontSize="18"
+                   Grid.Column="2"/>
+        <Button x:Name="btn_ajout"
+                Content="Ajouter"
+                HorizontalAlignment="Left" 
+                Margin="10,474,0,0" 
+                VerticalAlignment="Top"
+                Grid.Row="0"
+                Width="75" 
+                Click="btn_ajout_Click"/>
+        <Button x:Name="btn_del" 
+                Content="Supprimer" 
+                HorizontalAlignment="Left"
+                Margin="275,474,0,0" 
+                VerticalAlignment="Top"
+                Grid.Row="0"
+                Width="75"/>
+        <Button x:Name="btn_modif" 
+                Content="Modifier"
+                HorizontalAlignment="Left"
+                Margin="142,474,0,0" 
+                VerticalAlignment="Top" 
+                Grid.Row="0"
+                Width="75"/>
+
+    </Grid>
+</Window>

@@ -44,3 +44,6 @@ D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobili�
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ClientWPF\obj\Debug\ClientWPF.exe
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ClientWPF\obj\Debug\ClientWPF.pdb
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\bin\Debug\ClientWPF.exe.config
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.exe
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.pdb
