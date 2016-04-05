@@ -45,5 +45,18 @@ D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobili�
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ClientWPF\obj\Debug\ClientWPF.exe
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ClientWPF\obj\Debug\ClientWPF.pdb
 D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\bin\Debug\ClientWPF.exe.config
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\bin\Debug\ClientWPF.exe
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\bin\Debug\ClientWPF.pdb
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\add_view.g.cs
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\MainWindow.g.cs
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\App.g.cs
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.cache
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF_MarkupCompile.lref
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\add_view.baml
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\MainWindow.baml
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.g.resources
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.Properties.Resources.resources
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
 D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.exe
 D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.pdb

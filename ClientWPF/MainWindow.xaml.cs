@@ -83,6 +83,30 @@ namespace ClientWPF
 
         }
 
+        public ServiceAgence.BienImmobilierBase SelectedBien
+        {
+            get { return (ServiceAgence.BienImmobilierBase)GetProperty(); }
+
+            set
+            {
+                SetProperty(value);
+                if (value == null) return;
+
+                using (ServiceAgence.AgenceClient client = new ServiceAgence.AgenceClient())
+                {
+
+                    ServiceAgence.ResultatBienImmobilier resultat = client.LireDetailsBienImmobilier(value.Id.ToString());
+                    //txt_description.Text = resultat.Bien.Description;
+                }
+            }
+        }
+
+        public ServiceAgence.BienImmobilier resultat
+        {
+            get { return (ServiceAgence.BienImmobilier)GetProperty(); }
+            set { SetProperty(value); }
+        }
+
         public MainWindow()
         {
             InitializeComponent();

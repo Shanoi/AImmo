@@ -122,7 +122,7 @@
         <TextBlock x:Name="txt_description"
                    HorizontalAlignment="Left"
                    Margin="124,186,0,0"
-                   Text="{Binding ElementName=Liste,Path=BienImmoD.Description,Mode=TwoWay}" 
+                   Text="{Binding ElementName=Liste,Path=SelectedBien.Description,Mode=TwoWay}" 
                    VerticalAlignment="Top"
                    FontSize="18"
                    Grid.Column="2"/>
