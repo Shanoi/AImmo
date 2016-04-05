@@ -35,6 +35,24 @@ namespace ClientWPF
 
         private void textBox_valider_Click(object sender, RoutedEventArgs e)
         {
+            ServiceAgence.BienImmobilier bien = new ServiceAgence.BienImmobilier();
+
+            bien.Adresse = textBox_adresse.Text;
+            bien.CodePostal = textBox_codePostal.Text;
+            bien.Description = textBox_description.Text;
+            bien.MontantCharges = int.Parse(textBox_charges.Text);
+            bien.NbEtages = int.Parse(textBox_nbEtages.Text);
+            bien.NbPieces = int.Parse(textBox_nbPieces.Text);
+            bien.NumEtage = int.Parse(textBox_numEtage.Text);
+            bien.Prix = int.Parse(textBox_prix.Text);
+            bien.Surface = int.Parse(textBox_surface.Text);
+            bien.Titre = textBox_titre.Text;
+            bien.Ville = textBox_ville.Text;
+
+            using (ServiceAgence.AgenceClient client = new ServiceAgence.AgenceClient())
+            {
+                client.AjouterBienImmobilier(bien);
+            }
             this.Close();
         }
     }
