@@ -96,7 +96,8 @@ namespace ClientWPF
                 {
 
                     ServiceAgence.ResultatBienImmobilier resultat = client.LireDetailsBienImmobilier(value.Id.ToString());
-                    //txt_description.Text = resultat.Bien.Description;
+                    txt_description.Text = resultat.Bien.Description;
+                    txt_adresse.Text = resultat.Bien.Adresse;
                 }
             }
         }

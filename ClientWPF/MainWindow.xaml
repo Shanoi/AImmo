@@ -81,51 +81,55 @@
             </ItemsControl.ItemTemplate>
 
         </ListBox>
-        
-        
+
+
         <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
 
+        <Label Content="Détails du bien :" Grid.Column="2" HorizontalAlignment="Center" Margin="5,10,0,0" VerticalAlignment="Top" FontSize="15"/>
         <TextBlock x:Name="TitreBien" 
                    HorizontalAlignment="Left" 
-                   Margin="5,10,0,0" 
+                   Margin="5,72,0,0" 
                    Text="{Binding ElementName=Liste,Path=SelectedItem.Titre,Mode=TwoWay}" 
                    Style="{StaticResource GTitre}"
                    VerticalAlignment="Top"
                    FontWeight="Bold" 
                    FontSize="20"
-                   Grid.Column="2"/>
-        <Label Content="Prix : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,94,0,0" VerticalAlignment="Top" FontSize="18"/>
+                   Grid.Column="2"
+                   TextWrapping="Wrap"/>
+        <Label Content="Prix : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,145,0,0" VerticalAlignment="Top" FontSize="12"/>
         <TextBlock x:Name="txt_prix" 
                    HorizontalAlignment="Left"
-                   Margin="94,94,0,0" 
+                   Margin="48,145,0,0" 
                    Text="{Binding ElementName=Liste,Path=SelectedItem.Prix,Mode=TwoWay}" 
                    VerticalAlignment="Top"
-                   FontSize="18"
+                   FontSize="12"
                    Grid.Column="2"/>
-        <Label Content="Adresse : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,123,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Adresse : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,174,0,0" VerticalAlignment="Top" FontSize="12"/>
         <TextBlock x:Name="txt_adresse"
                    HorizontalAlignment="Left"
-                   Margin="94,133,0,0" 
-                   Text="{Binding ElementName=Liste,Path=SelectedItem.dateMiseEnTransaction,Mode=TwoWay}" 
+                   Margin="94,184,0,0" 
+                   Text="" 
                    VerticalAlignment="Top"
-                   FontSize="18"
-                   Grid.Column="2"/>
-        <Label Content="Ville : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,152,0,0" VerticalAlignment="Top" FontSize="18"/>
+                   FontSize="12"
+                   Grid.Column="2"
+                   TextWrapping="Wrap"/>
+        <Label Content="Ville : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,203,0,0" VerticalAlignment="Top" FontSize="12"/>
         <TextBlock x:Name="txt_ville"
                    HorizontalAlignment="Left"
-                   Margin="94,157,0,0"
+                   Margin="94,208,0,0"
                    Text="{Binding ElementName=Liste,Path=SelectedItem.Ville,Mode=TwoWay}" 
                    VerticalAlignment="Top"
-                   FontSize="18"
+                   FontSize="12"
                    Grid.Column="2"/>
-        <Label Content="Description : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,181,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Description : " Grid.Column="2" HorizontalAlignment="Left" Margin="5,232,0,0" VerticalAlignment="Top" FontSize="12"/>
         <TextBlock x:Name="txt_description"
                    HorizontalAlignment="Left"
-                   Margin="124,186,0,0"
-                   Text="{Binding ElementName=Liste,Path=SelectedBien.Description,Mode=TwoWay}" 
+                   Margin="124,237,0,0"
+                   Text=""
                    VerticalAlignment="Top"
-                   FontSize="18"
-                   Grid.Column="2"/>
+                   FontSize="12"
+                   Grid.Column="2"
+                   TextWrapping="Wrap"/>
         <Button x:Name="btn_ajout"
                 Content="Ajouter"
                 HorizontalAlignment="Left" 
