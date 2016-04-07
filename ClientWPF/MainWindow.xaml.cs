@@ -159,13 +159,7 @@ namespace ClientWPF
 
 
         }
-
-
-        private void btn_change_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             this.ListeBiens = new ObservableCollection<ServiceAgence.BienImmobilierBase>();
@@ -219,5 +213,12 @@ namespace ClientWPF
             add_view a = new add_view();
             a.ShowDialog();
         }
+
+        private void btn_del_Click(object sender, RoutedEventArgs e)
+        {
+            del_view del = new del_view(this.Liste.SelectedIndex);
+            del.ShowDialog();
+        }
+
     }
 }
