@@ -28,3 +28,18 @@ D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobili�
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ServiceWCF\obj\Debug\ServiceWCF.csprojResolveAssemblyReference.cache
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ServiceWCF\obj\Debug\ServiceWCF.dll
 D:\Users\Olivier\Documents\Visual Studio 2013\Projects\Projet - Agence immobilière - X\ServiceWCF\obj\Debug\ServiceWCF.pdb
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\SQL\agence.db
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\ServiceWCF.dll.config
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\ServiceWCF.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\ServiceWCF.pdb
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\EntityFramework.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\EntityFramework.SqlServer.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\System.Data.SQLite.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\System.Data.SQLite.EF6.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\System.Data.SQLite.Linq.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\EntityFramework.xml
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\EntityFramework.SqlServer.xml
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\bin\System.Data.SQLite.xml
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\obj\Debug\ServiceWCF.csprojResolveAssemblyReference.cache
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\obj\Debug\ServiceWCF.dll
+D:\Users\Olivier\Documents\GitProjects\AImmo\ServiceWCF\obj\Debug\ServiceWCF.pdb

@@ -53,6 +53,7 @@ namespace ClientWPF
             {
                 client.AjouterBienImmobilier(bien);
             }
+
             this.Close();
         }
     }

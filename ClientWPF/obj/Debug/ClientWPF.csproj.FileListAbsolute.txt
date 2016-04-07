@@ -60,3 +60,6 @@ D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.Prope
 D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.csproj.GenerateResource.Cache
 D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.exe
 D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.pdb
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\ClientWPF.csprojResolveAssemblyReference.cache
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\del_view.baml
+D:\Users\Olivier\Documents\GitProjects\AImmo\ClientWPF\obj\Debug\del_view.g.cs

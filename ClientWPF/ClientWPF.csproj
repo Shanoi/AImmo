@@ -62,12 +62,19 @@
       <DependentUpon>add_view.xaml</DependentUpon>
     </Compile>
     <Compile Include="Base64ImageConverter.cs" />
+    <Compile Include="del_view.xaml.cs">
+      <DependentUpon>del_view.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Service References\ServiceAgence\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Page Include="add_view.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="del_view.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
